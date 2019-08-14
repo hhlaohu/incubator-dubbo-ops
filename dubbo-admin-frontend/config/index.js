@@ -12,7 +12,7 @@ module.exports = {
     assetsPublicPath: '/',
     proxyTable: {
       '/': {
-        target: 'http://localhost:8080/',
+        target: 'http://cdb.ez-charge.com.tw:9091',
         changeOrigin: true,
         pathRewrite: {
           '^/': '/'

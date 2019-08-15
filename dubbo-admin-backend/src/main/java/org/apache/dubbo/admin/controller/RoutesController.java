@@ -31,7 +31,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/{env}/rules/route")
+@RequestMapping("/api1/{env}/rules/route")
 public class RoutesController {
 
     private final RouteService routeService;

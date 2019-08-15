@@ -34,7 +34,7 @@ import java.util.regex.Pattern;
 
 
 @RestController
-@RequestMapping("/api/{env}/service")
+@RequestMapping("/api1/{env}/service")
 public class ServiceController {
 
     private final ProviderService providerService;

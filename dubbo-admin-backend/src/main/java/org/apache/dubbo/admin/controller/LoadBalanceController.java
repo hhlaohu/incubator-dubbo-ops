@@ -35,7 +35,7 @@ import java.util.List;
 import static org.apache.dubbo.admin.registry.common.util.OverrideUtils.overrideToLoadBalance;
 
 @RestController
-@RequestMapping("/api/{env}/rules/balancing")
+@RequestMapping("/api1/{env}/rules/balancing")
 public class LoadBalanceController {
 
     private final OverrideService overrideService;

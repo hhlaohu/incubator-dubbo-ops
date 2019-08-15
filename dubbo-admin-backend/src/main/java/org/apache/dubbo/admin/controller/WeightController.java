@@ -33,7 +33,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/{env}/rules/weight")
+@RequestMapping("/api1/{env}/rules/weight")
 public class WeightController {
 
     private final OverrideService overrideService;

@@ -19,7 +19,7 @@ import Vue from 'vue'
 import HttpStatus from 'http-status'
 
 let instance = axios.create({
-  baseURL: '/api/dev'
+  baseURL: '/api1/dev'
 })
 
 instance.interceptors.response.use((response) => {

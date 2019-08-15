@@ -34,7 +34,7 @@ import java.util.List;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/api/{env}/rules/override")
+@RequestMapping("/api1/{env}/rules/override")
 public class OverridesController {
 
     private final OverrideService overrideService;

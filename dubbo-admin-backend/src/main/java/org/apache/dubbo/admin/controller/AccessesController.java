@@ -33,7 +33,7 @@ import java.text.ParseException;
 import java.util.*;
 
 @RestController
-@RequestMapping("/api/{env}/rules/access")
+@RequestMapping("/api1/{env}/rules/access")
 public class AccessesController {
     private static final Logger logger = LoggerFactory.getLogger(AccessesController.class);
 
